@@ -150,3 +150,4 @@ lvim.builtin.treesitter.highlight.enabled = true
 -- lvim.autocommands.custom_groups = {
 --   { "BufWinEnter", "*.lua", "setlocal ts=8 sw=8" },
 -- }
+require "user.config"
