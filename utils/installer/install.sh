@@ -22,7 +22,7 @@ BASEDIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)"
 BASEDIR="$(dirname -- "$(dirname -- "$BASEDIR")")"
 readonly BASEDIR
 
-declare ARGS_LOCAL=0
+declare ARGS_LOCAL=1
 declare ARGS_OVERWRITE=0
 declare ARGS_INSTALL_DEPENDENCIES=1
 declare INTERACTIVE_MODE=1

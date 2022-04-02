@@ -8,6 +8,7 @@ end
 require("lvim.bootstrap"):init(base_dir)
 
 require("lvim.config"):load()
+require("user.config")
 
 local plugins = require "lvim.plugins"
 require("lvim.plugin-loader").load { plugins, lvim.plugins }
