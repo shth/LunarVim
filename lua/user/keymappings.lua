@@ -33,6 +33,22 @@ lvim.builtin.which_key.mappings["g"]["d"] = { "<cmd>Git<cr>", "Diff view" }
 lvim.builtin.which_key.mappings["s"]["w"] = {
    "<cmd>Telescope grep_string<cr>", "Search for work under cursor"
 }
+-- Harpoon
+lvim.builtin.which_key.mappings["h"] = {
+   ":lua require('harpoon.ui').toggle_quick_menu()<cr>", "First harpoon file"
+}
+lvim.builtin.which_key.mappings["H"] = {
+   ":lua require('harpoon.mark').add_file()<cr>", "Add harpoon file"
+}
+lvim.builtin.which_key.mappings["7"] = {
+   ":lua require('harpoon.ui').nav_file(1)<cr>", "First harpoon file"
+}
+lvim.builtin.which_key.mappings["8"] = {
+   ":lua require('harpoon.ui').nav_file(2)<cr>", "Second harpoon file"
+}
+lvim.builtin.which_key.mappings["9"] = {
+   ":lua require('harpoon.ui').nav_file(3)<cr>", "Third harpoon file"
+}
 
 -- visual mode mappings
 lvim.builtin.which_key.vmappings["g"] = {

@@ -31,6 +31,7 @@ lvim.plugins = {
         "tpope/vim-fugitive"
     },
     { 'TimUntersberger/neogit', requires = 'nvim-lua/plenary.nvim' },
+    { 'ThePrimeagen/harpoon', requires = 'nvim-lua/plenary.nvim' },
 }
 
 -- TODO: move this into packer syntax
